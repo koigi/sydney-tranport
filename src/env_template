@@ -1,0 +1,14 @@
+[APP]
+ENVIRONMENT = development
+DEBUG = False
+
+[TFNSW_DETAILS]
+URL_BASE = https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/
+API_KEY = SOMETHING_YOU_GET_YOURSELF
+BUSES = buses 
+TRAINS = sydneytrains
+METRO = metro
+FERRIES = ferries/sydneyferries
+LIGHTRAIL = lightrail
+NSWTRAINS = nswtrains
+NSWBUSES = regionbuses
